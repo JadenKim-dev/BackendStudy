@@ -56,8 +56,6 @@ public class MemberApiController {
         return new UpdateMemberResponse(findMember.getId(), findMember.getName());
     }
 
-
-
     @Data
     static class CreateMemberResponse {
         private Long id;
